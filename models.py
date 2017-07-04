@@ -2,6 +2,7 @@ from django.conf import settings
 from django.contrib.auth.models import Group
 from django.db import models
 
+
 # Create your models here.
 
 
@@ -35,7 +36,7 @@ class Approveable(models.Model):
 
 
 class Shareable(models.Model):
-    #https://megatags.co/
+    # https://megatags.co/
 
     class Meta:
         abstract = True

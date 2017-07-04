@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+
+/media/*
+/static/*
+
+*.sqlite*
+
+.idea
+.virtualenv
